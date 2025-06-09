@@ -1,0 +1,86 @@
+
+.text, .bio-text {
+    font-size: 18px !important; /* Forces all text to be the same */
+    font-family: 'helveticaneuemedium', Helvetica, Arial, sans-serif;
+}
+
+@font-face {
+    font-family: 'helveticaneuebold';
+    src: url('helvetica_neu_bold-webfont.woff2') format('woff2'),
+         url('helvetica_neu_bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'helveticaneueblackcond';
+    src: url('helveticaneue_blackcond-webfont.woff2') format('woff2'),
+         url('helveticaneue_blackcond-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'helveticaneuelight';
+    src: url('helveticaneue_light-webfont.woff2') format('woff2'),
+         url('helveticaneue_light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'helveticaneuemedium';
+    src: url('helveticaneue_medium-webfont.woff2') format('woff2'),
+         url('helveticaneue_medium-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'helveticaneuethin';
+    src: url('helveticaneue_thin-webfont.woff2') format('woff2'),
+         url('helveticaneue_thin-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+
+}
+.bio-text {
+    font-family: helveticaneuemedium;
+    font-size: 3vw; /* Responsive font size */
+
+}
+
+.gradient-link {
+    font-size: inherit !important;  /* Forces the same size as parent text */
+    font-weight: inherit !important; /* Ensures same weight */
+    background: linear-gradient(to right, #1561bf 0%, #1561bf 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+
+.gradient-link:hover {
+    font-family: helveticaneuemedium;
+    text-decoration: underline;
+}
+
+
+.outline{
+    color: black;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+}
+
